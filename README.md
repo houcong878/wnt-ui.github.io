@@ -1,24 +1,15 @@
-# mooc-ui
+# hc-ui878 组件库
+### 快速开始
+#### 1.安装组件库
 
-## Project setup
-```
-npm install
-```
+npm install wnt-ui878
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### 2.引用组件库(全局)
+import 'wnt-ui878/dist/css/index.scss';
+import hcui from 'wnt-ui878';
+Vue.use(hcui)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### 3.按需引入
+import 'wnt-ui878/dist/css/demo.scss';
+import {Demo} from 'wnt-ui878'
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
